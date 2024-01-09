@@ -1,4 +1,4 @@
-Repproducable Terraform project with Azure
+Reproducible Terraform project with Azure
 ==========================================
 This project is a simple example of how to use Terraform to create a simple infrastructure in Azure.
 
