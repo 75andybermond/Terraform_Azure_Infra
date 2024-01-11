@@ -13,7 +13,7 @@ This project is a simple example of how to use Terraform to create a simple infr
 az login
 ```
 
-### 2. Create your SSH key **OUTISDE OF DOCKER**
+### 2. Create your SSH key **OUTSIDE OF DOCKER**
 ``` bash
 sudo ssh-keygen -t rsa &&
 
@@ -29,5 +29,5 @@ terraform init && terraform apply
 ### 4. Connect to the VM
 ctrl + shift + p -> Remote-SSH: Connect to Host -> Select latest host and ip adress
 
-IP address infos are in the output of terraform apply
+IP address infos are displayed in the output of terraform apply
 
